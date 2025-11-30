@@ -1,0 +1,6 @@
+/project/build/CMakeFiles/Profile.dir
+/project/build/CMakeFiles/edit_cache.dir
+/project/build/CMakeFiles/rebuild_cache.dir
+/project/build/test/CMakeFiles/Profile_test.dir
+/project/build/test/CMakeFiles/edit_cache.dir
+/project/build/test/CMakeFiles/rebuild_cache.dir
