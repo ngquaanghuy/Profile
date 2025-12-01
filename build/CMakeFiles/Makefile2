@@ -98,12 +98,12 @@ test/clean: test/CMakeFiles/Profile_test.dir/clean
 CMakeFiles/Profile.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Profile.dir/build.make CMakeFiles/Profile.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Profile.dir/build.make CMakeFiles/Profile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/project/build/CMakeFiles --progress-num=1,2 "Built target Profile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/project/build/CMakeFiles --progress-num=1,2,3 "Built target Profile"
 .PHONY : CMakeFiles/Profile.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Profile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /project/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /project/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Profile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /project/build/CMakeFiles 0
 .PHONY : CMakeFiles/Profile.dir/rule
@@ -124,7 +124,7 @@ CMakeFiles/Profile.dir/clean:
 test/CMakeFiles/Profile_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Profile_test.dir/build.make test/CMakeFiles/Profile_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Profile_test.dir/build.make test/CMakeFiles/Profile_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/project/build/CMakeFiles --progress-num=3,4 "Built target Profile_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/project/build/CMakeFiles --progress-num=4,5 "Built target Profile_test"
 .PHONY : test/CMakeFiles/Profile_test.dir/all
 
 # Build rule for subdir invocation for target.

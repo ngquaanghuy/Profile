@@ -142,6 +142,30 @@ Profile_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/Profile_test.dir/build.make test/CMakeFiles/Profile_test.dir/build
 .PHONY : Profile_test/fast
 
+SimpleController.o: SimpleController.cc.o
+.PHONY : SimpleController.o
+
+# target to build an object file
+SimpleController.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Profile.dir/build.make CMakeFiles/Profile.dir/SimpleController.cc.o
+.PHONY : SimpleController.cc.o
+
+SimpleController.i: SimpleController.cc.i
+.PHONY : SimpleController.i
+
+# target to preprocess a source file
+SimpleController.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Profile.dir/build.make CMakeFiles/Profile.dir/SimpleController.cc.i
+.PHONY : SimpleController.cc.i
+
+SimpleController.s: SimpleController.cc.s
+.PHONY : SimpleController.s
+
+# target to generate assembly for a file
+SimpleController.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Profile.dir/build.make CMakeFiles/Profile.dir/SimpleController.cc.s
+.PHONY : SimpleController.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Profile"
 	@echo "... Profile_test"
+	@echo "... SimpleController.o"
+	@echo "... SimpleController.i"
+	@echo "... SimpleController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Profile.dir/SimpleController.cc.o"
+  "CMakeFiles/Profile.dir/SimpleController.cc.o.d"
   "CMakeFiles/Profile.dir/main.cc.o"
   "CMakeFiles/Profile.dir/main.cc.o.d"
   "Profile"

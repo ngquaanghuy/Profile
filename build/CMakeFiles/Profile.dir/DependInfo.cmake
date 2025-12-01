@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/project/SimpleController.cc" "CMakeFiles/Profile.dir/SimpleController.cc.o" "gcc" "CMakeFiles/Profile.dir/SimpleController.cc.o.d"
   "/project/main.cc" "CMakeFiles/Profile.dir/main.cc.o" "gcc" "CMakeFiles/Profile.dir/main.cc.o.d"
   )
 
